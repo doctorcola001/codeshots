@@ -1,0 +1,41 @@
+{
+  "_comment": "自包含示例：用 codeshots.py 自身的片段当素材，可独立跑通验证。path 相对本 spec 所在目录。",
+  "defaults": {
+    "bg": "light",
+    "style": "friendly",
+    "font_size": 20,
+    "max_cells": 72,
+    "cont_indent": 8
+  },
+  "items": [
+    {
+      "id": "demo-1",
+      "out": "demo_1.png",
+      "caption": "全角/半角判定与字符格计数（浅色，白底文档用）",
+      "kind": "file",
+      "path": "../codeshots.py",
+      "start": 100,
+      "end": 110
+    },
+    {
+      "id": "demo-2",
+      "out": "demo_2.png",
+      "caption": "超宽行折行：优先在空格处断开，续行缩进 8 格",
+      "kind": "file",
+      "path": "../codeshots.py",
+      "start": 168,
+      "end": 196
+    },
+    {
+      "id": "demo-3",
+      "out": "demo_3_dark.png",
+      "caption": "同一段代码的深色版（屏幕预览用）",
+      "kind": "file",
+      "path": "../codeshots.py",
+      "start": 168,
+      "end": 196,
+      "bg": "dark",
+      "style": "monokai"
+    }
+  ]
+}
